@@ -4,7 +4,6 @@ provider "aws" {
 
 locals {
   region = "eu-west-1"
-  env    = "dev"
   name   = "wp"
   tags = {
     Terraform   = "true"
