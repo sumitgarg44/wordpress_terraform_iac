@@ -41,6 +41,7 @@ RDS Max allocated storage | 10GB
 # Usage
 * Clone the git repository
 * Change directory to wordpress_terraform_iac
+* Install require providers using 'terraform init'
 * Create stack using 'terraform apply'
 
 # Post Deploy
