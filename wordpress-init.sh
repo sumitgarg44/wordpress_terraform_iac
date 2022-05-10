@@ -17,7 +17,7 @@ amazon-linux-extras enable php7.4
 yum -y install httpd php php-cli php-gd php-mysqlnd
 systemctl enable --now httpd
 
-# Download Wordpress and update wp-config.php
+# Download Wordpress
 WP_ROOT_DIR=$${MOUNT_PATH}/html
 LOCK_FILE=$${MOUNT_PATH}/.wordpress.lock
 EC2_LIST=$${MOUNT_PATH}/.ec2_list
