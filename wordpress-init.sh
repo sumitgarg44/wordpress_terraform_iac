@@ -43,8 +43,7 @@ if [ ! -f $${LOCK_FILE} -a "$${SHORT_NAME}" == "$${FIRST_SERVER}" ]; then
 	rm -rf $${WP_ROOT_DIR}
 	mv wordpress html
         mkdir $${WP_ROOT_DIR}/wp-content/uploads
-	touch $${WP_ROOT_DIR}/wp-config.php
-	chown -R apache:apache $${WP_ROOT_DIR}
+	chown -R apache:apache $${MOUNT_PATH}
 	rm -rf latest.tar.gz
 
 else
