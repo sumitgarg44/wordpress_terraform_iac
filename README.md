@@ -34,7 +34,7 @@ ASG Max Size | 2
 ASG Desired Capacity | 1
 Scale down CPU utilization | Less than 10%
 Scale up CPU utilization | Greater than 50%
-MariaDB Version | 10.6.7
+MariaDB Version | 10.6.X
 RDS allocated storage | 5GB
 RDS Max allocated storage | 10GB
 

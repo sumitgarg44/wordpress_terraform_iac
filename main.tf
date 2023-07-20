@@ -348,7 +348,7 @@ module "db" {
 
   # All available versions: http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.VersionMgmt
   engine                    = "mariadb"
-  engine_version            = "10.6.7"
+  engine_version            = "10.6.14"
   create_db_parameter_group = "false"
   create_db_option_group    = "false"
   skip_final_snapshot       = "true"
